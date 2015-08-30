@@ -29,6 +29,6 @@
     "tests"
   ],
   "dependencies": {
-    "angioc": "0.0.x"
+    "angioc": "0.0.3"
   }
 }
