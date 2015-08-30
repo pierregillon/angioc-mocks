@@ -1,0 +1,34 @@
+{
+  "name": "angioc-mocks",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Pierre Gillon"
+    }
+  ],
+  "description": "A simple ioc inspired by angular",
+  "main": "./src/angioc-mocks.js",
+  "keywords": [
+    "angular",
+    "ioc",
+    "dependency",
+    "injection",
+    "module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pierregillon/Angioc.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/pierregillon/Angioc-mocks",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angioc": "*"
+  }
+}
