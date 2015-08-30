@@ -6,7 +6,7 @@
       "name": "Pierre Gillon"
     }
   ],
-  "description": "A simple ioc inspired by angular",
+  "description": "A library to help testing application that are using angioc.",
   "main": "./src/angioc-mocks.js",
   "keywords": [
     "angular",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/pierregillon/Angioc.git"
+    "url": "git://github.com/pierregillon/Angioc-mocks.git"
   },
   "license": "MIT",
   "homepage": "https://github.com/pierregillon/Angioc-mocks",
@@ -29,6 +29,6 @@
     "tests"
   ],
   "dependencies": {
-    "angioc": "*"
+    "angioc": "0.0.x"
   }
 }

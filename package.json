@@ -1,7 +1,7 @@
 {
   "name": "angioc-mocks",
   "version": "0.0.1",
-  "description": "A simple ioc inspired by angular",
+  "description": "A library to help testing application that are using angioc.",
   "main": "./src/angioc-mocks.js",
   "scripts": {
     "test": "gulp test"

@@ -1,11 +1,11 @@
 (function () {
     'use strict';
 
-    function AngiocMock(angioc){
+    function AngiocMocks(angioc){
         var self = this;
 
         angioc.resolve(['$provide'], function($provide){
-            self.angiocMocks = AngiocMock;
+            self.angiocMocks = AngiocMocks;
             self.inject = function(callback){
                 return function(){
                     angioc.resolve(callback);
@@ -76,5 +76,5 @@
         }
     }
 
-    injectInstance(new AngiocMock(getAngiocInstance()));
+    injectInstance(new AngiocMocks(getAngiocInstance()));
 }());
