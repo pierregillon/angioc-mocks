@@ -23,6 +23,6 @@
     "phantomjs": "^1.9.18"
   },
   "dependencies": {
-    "angioc": "0.0.3"
+    "angioc": "0.0.x"
   }
 }

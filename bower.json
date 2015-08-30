@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/pierregillon/Angioc-mocks.git"
+    "url": "git://github.com/pierregillon/angioc-mocks.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/pierregillon/Angioc-mocks",
+  "homepage": "https://github.com/pierregillon/angioc-mocks",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -29,6 +29,6 @@
     "tests"
   ],
   "dependencies": {
-    "angioc": "0.0.3"
+    "angioc": "0.0.x"
   }
 }
