@@ -1,7 +1,7 @@
 {
   "name": "angioc-mocks",
-  "version": "0.0.1",
-  "description": "A library to help testing application that are using angioc.",
+  "version": "0.0.2",
+  "description": "A library to help you testing application that is using angioc.",
   "main": "./src/angioc-mocks.js",
   "scripts": {
     "test": "gulp test"

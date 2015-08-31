@@ -1,12 +1,12 @@
 {
   "name": "angioc-mocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     {
       "name": "Pierre Gillon"
     }
   ],
-  "description": "A library to help testing application that are using angioc.",
+  "description": "A library to help you testing application that is using angioc.",
   "main": "./src/angioc-mocks.js",
   "keywords": [
     "angular",
