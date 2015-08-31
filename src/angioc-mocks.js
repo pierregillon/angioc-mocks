@@ -8,7 +8,8 @@
             self.angiocMocks = AngiocMocks;
             self.inject = function(callback){
                 return function(){
-                    angioc.resolve(callback);
+                    var dependencyNames = getParameterNames(callback);
+                    angioc.resolve(dependencyNames, callback);
                 };
             };
             self.definition = function(callback){

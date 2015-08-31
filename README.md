@@ -1,6 +1,6 @@
 #angioc-mocks
 
-A library to help you testing application that are using angioc. You can find angioc library here : https://github.com/pierregillon/Angioc.
+A library to help you testing application that is using angioc. You can find angioc library here : https://github.com/pierregillon/angioc
 
 ## Install
 
