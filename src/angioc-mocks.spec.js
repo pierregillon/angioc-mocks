@@ -95,6 +95,20 @@
                 })();
             });
         });
+
+        it('cannot get definition of constant.', function () {
+            // Actors
+            var constant = {};
+            var process = angiocMocks.definition(function (test) {});
+
+            // Actions
+            angioc
+                .register('test', constant)
+                .asConstant();
+
+            // Asserts
+            expect(process).toThrowError('A constant has no definition.');
+        });
     });
 
 }(window, describe, it, angioc.constructor, angiocMocks.constructor));
